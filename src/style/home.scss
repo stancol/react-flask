@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background: url(../finalProjectImagess/master.jpg) no-repeat center / cover;
+}
+
+.center-features-column .column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: rgb(213, 243, 196);
+  }
+}
+
+.center-features-column {
+  .column {
+    padding: 60px;
+    margin: 100px;
+    text-align: center;
+    // border-bottom: 15px solid transparent;
+    // border-radius: 80px;
+    transition: 1s;
+    .column:hover {
+      border-bottom: 5px solid #9899ac;
+    }
+  }
+}

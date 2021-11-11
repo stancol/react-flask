@@ -1,0 +1,12 @@
+@import "./app.scss";
+@import "./home.scss";
+@import "./about.scss";
+@import "./navigation-container";
+@import "./newProduct.scss";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
